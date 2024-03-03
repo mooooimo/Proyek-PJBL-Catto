@@ -1,0 +1,7 @@
+@use "mixin" as m;
+
+bpdy {
+  .navbar {
+    @include m.navbar();
+  }
+}
